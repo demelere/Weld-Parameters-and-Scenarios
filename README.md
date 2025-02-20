@@ -4,6 +4,7 @@ There's a lot of upside in training videos.  One example is Steve Bleile's Arc W
 
 This is an effort to encode that knowledge as a data structure that could be used and accessed w/algorithms for a human to visualize and understand at-a-glance what to do in any given situation, and for robotic controls and decision-making.
 
+```
 WeldingKnowledgeGraph
 ├── Preparations (Static Decisions)
 │   ├── Materials
@@ -22,3 +23,4 @@ WeldingKnowledgeGraph
 └── Observations (Feedback Loop)
     ├── PuddleIndicators
     └── QualityAssessment
+```

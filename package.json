@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "There's a lot of upside in training videos.  One example is Steve Bleile's Arc Welding videos for SMAW (i.e. stick welding).  There are a lots interplay between welding parameters, scenarios, and requirements that go into making decisions and adjusting (both beforehand and in real-time) to controlling the molten weld puddle and producing a good weld bead.",
   "main": "weldingKnowledge.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "three": "^0.173.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
